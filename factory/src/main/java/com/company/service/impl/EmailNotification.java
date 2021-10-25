@@ -1,6 +1,9 @@
-package com.company;
+package com.company.service.impl;
 
-public class EmailNotification implements INotificationService{
+import com.company.model.Notification;
+import com.company.service.INotificationService;
+
+public class EmailNotification implements INotificationService {
 
     static final String DESCRIPTION = "Email Notification is sending: ";
 

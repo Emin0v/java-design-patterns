@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.model.Notification;
+import com.company.model.NotificationType;
+
 public class Main {
     public static void main(String[] args) {
 

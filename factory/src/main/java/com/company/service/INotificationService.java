@@ -1,4 +1,6 @@
-package com.company;
+package com.company.service;
+
+import com.company.model.Notification;
 
 public interface INotificationService {
 
