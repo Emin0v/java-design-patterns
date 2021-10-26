@@ -2,10 +2,10 @@ package com.company;
 
 public class User {
 
-    private String uuid;
-    private String name;
-    private String surname;
-    private String email;
+    private final String uuid;
+    private final String name;
+    private final String surname;
+    private final String email;
 
     private User(Builder builder) {
         this.uuid = builder.uuid;
@@ -43,32 +43,16 @@ public class User {
         return uuid;
     }
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getSurname() {
         return surname;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
     public String getEmail() {
         return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public static class Builder {
