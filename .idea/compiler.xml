@@ -8,11 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="singleton" />
-        <module name="builder" />
         <module name="factory" />
         <module name="proxy" />
-        <module name="facade" />
         <module name="adapter" />
+        <module name="builder" />
+        <module name="facade" />
+        <module name="prototype" />
       </profile>
     </annotationProcessing>
   </component>
