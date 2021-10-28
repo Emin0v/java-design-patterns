@@ -16,8 +16,6 @@ public class Iphone extends Phone {
     @Override
     public void work() {
 
-        toString();
-
         System.out.println("iPhone is working...");
     }
 
