@@ -13,6 +13,7 @@
         <module name="adapter" />
         <module name="builder" />
         <module name="facade" />
+        <module name="bridge" />
         <module name="prototype" />
       </profile>
     </annotationProcessing>
