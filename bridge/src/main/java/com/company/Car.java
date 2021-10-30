@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public abstract class Car {
 
-    protected  Color color;
+    protected Color color;
 
     public Car(Color color){
         this.color = color;
