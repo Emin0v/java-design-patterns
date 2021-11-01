@@ -1,4 +1,4 @@
-##Bridge Pattern
+## Bridge Pattern
 
 A Bridge Pattern says that just "decouple the functional abstraction from the implementation so that the two can vary independently".
 

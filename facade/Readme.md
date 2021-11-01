@@ -1,4 +1,4 @@
-##Facade Pattern
+## Facade Pattern
 
 A Facade Pattern says that just "just provide a unified and simplified interface to a set of interfaces in a subsystem, therefore it hides the complexities of the subsystem from the client".
 

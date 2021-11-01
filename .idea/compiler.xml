@@ -10,6 +10,7 @@
         <module name="singleton" />
         <module name="factory" />
         <module name="proxy" />
+        <module name="cqrs" />
         <module name="iterator" />
         <module name="adapter" />
         <module name="builder" />
@@ -18,5 +19,10 @@
         <module name="prototype" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cqrs" options="-parameters" />
+    </option>
   </component>
 </project>
