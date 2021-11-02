@@ -10,6 +10,7 @@ import java.util.UUID;
 @Setter
 @NoArgsConstructor
 @ToString
+@Builder
 public class Author {
 
     @Id

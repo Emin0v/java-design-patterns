@@ -13,8 +13,8 @@ public interface IQueryService {
 
     List<Book> getAuthorBooks(String uuid);
 
-    Integer getAuthorBooksCount(String username);
+    long getAuthorBooksCount(String uuid);
 
-    Integer getAuthorsCount();
+    long getAuthorsCount();
 
 }

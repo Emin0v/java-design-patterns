@@ -1,10 +1,12 @@
 package com.company.commands;
 
+import java.math.BigDecimal;
+
 public interface ICommandService {
 
-    void authorCreated(String uuid, String name, String email);
+    void authorCreated(String name, String email);
 
-    void bookAddedToAuthor(String title, double price, String uuid);
+    void bookAddedToAuthor(String title, BigDecimal price, String uuid);
 
     void authorNameUpdated(String uuid, String name);
 
@@ -12,6 +14,6 @@ public interface ICommandService {
 
     void bookTitleUpdated(String oldTitle, String newTitle);
 
-    void bookPriceUpdated(String title, double price);
+    void bookPriceUpdated(String title, BigDecimal price);
 
 }

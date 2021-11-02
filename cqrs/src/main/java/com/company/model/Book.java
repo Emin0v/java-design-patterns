@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 @Getter
 @ToString
 @NoArgsConstructor
+@Builder
 public class Book {
 
     @Id
