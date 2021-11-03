@@ -16,7 +16,7 @@ public class AuthorController {
     private final IAuthorQueryService queryService;
     private final IAuthorCommandService commandService;
 
-    @GetMapping
+    @GetMapping("/books/count")
     public ResponseEntity<Long> getAuthorBooksCount(@RequestParam String uuid){
         return ResponseEntity.ok(queryService.getAuthorBooksCount(uuid));
     }
