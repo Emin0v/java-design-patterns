@@ -1,24 +1,22 @@
 //package com.company.queries;
 //
-//import com.company.commands.CommandServiceImpl;
+//import com.company.commands.ICommandService;
 //import com.company.model.Author;
-//import com.company.model.Book;
 //import org.junit.jupiter.api.BeforeEach;
 //import org.junit.jupiter.api.Test;
-//import org.mockito.MockitoAnnotations;
-//
-//import java.math.BigDecimal;
+//import org.springframework.beans.factory.annotation.Autowired;
 //
 //class QueryServiceImplTest {
 //
-//    private IQueryService service;
+//    @Autowired
+//    private IQueryService queryService;
+//
+//    @Autowired
+//    private ICommandService commandService;
 //
 //    @BeforeEach
 //    void setUp() {
 //        System.out.println("set up called");
-//        var commandService = new CommandServiceImpl();
-//
-//        service = new QueryServiceImpl();
 //
 //        Author author = new Author("testAuthorName","test@mail.ru");
 //
@@ -26,20 +24,21 @@
 //
 //        commandService.authorCreated("testAuthorName2", "test2@mail.ru");
 //
+//
 ////        commandService.bookAddedToAuthor("title1", BigDecimal.valueOf(10), "username1");
 ////
 ////        commandService.bookAddedToAuthor("title2", 20, "username1");
 ////        commandService.bookPriceUpdated("title2", 30);
 ////        commandService.bookTitleUpdated("title2", "new_title2");
 //
-//        Book book = new Book("testBookTitle", BigDecimal.valueOf(10),author);
+////        Book book = new Book("testBookTitle", BigDecimal.valueOf(10),author);
 //
 //    }
 //
 //    @Test
 //    void getBook() {
 //        var book = queryService.getBook("testBookTitle");
-//        assertEquals("testBookTitle", book.getTitle());
+//
 //    }
 //
 //    @Test
