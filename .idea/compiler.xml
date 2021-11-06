@@ -13,6 +13,7 @@
         <module name="cqrs" />
         <module name="iterator" />
         <module name="adapter" />
+        <module name="marker" />
         <module name="builder" />
         <module name="facade" />
         <module name="bridge" />
