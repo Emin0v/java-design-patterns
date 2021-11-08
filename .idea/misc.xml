@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/cqrs/pom.xml" />
         <option value="$PROJECT_DIR$/marker/pom.xml" />
         <option value="$PROJECT_DIR$/strategy/pom.xml" />
+        <option value="$PROJECT_DIR$/observer/pom.xml" />
       </list>
     </option>
   </component>

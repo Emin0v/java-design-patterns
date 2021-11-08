@@ -9,16 +9,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="singleton" />
         <module name="factory" />
-        <module name="proxy" />
         <module name="cqrs" />
-        <module name="iterator" />
         <module name="adapter" />
+        <module name="facade" />
+        <module name="prototype" />
+        <module name="proxy" />
+        <module name="observer" />
+        <module name="iterator" />
         <module name="marker" />
         <module name="builder" />
-        <module name="facade" />
         <module name="bridge" />
         <module name="strategy" />
-        <module name="prototype" />
       </profile>
     </annotationProcessing>
   </component>
