@@ -19,6 +19,7 @@
         <module name="marker" />
         <module name="builder" />
         <module name="bridge" />
+        <module name="state" />
         <module name="strategy" />
       </profile>
     </annotationProcessing>
