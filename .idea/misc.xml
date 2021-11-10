@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/strategy/pom.xml" />
         <option value="$PROJECT_DIR$/observer/pom.xml" />
         <option value="$PROJECT_DIR$/state/pom.xml" />
+        <option value="$PROJECT_DIR$/model-view-controller/pom.xml" />
       </list>
     </option>
   </component>
