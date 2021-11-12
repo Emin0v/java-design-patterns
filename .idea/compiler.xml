@@ -11,6 +11,7 @@
         <module name="factory" />
         <module name="cqrs" />
         <module name="adapter" />
+        <module name="event-driven-architecture" />
         <module name="model-view-controller" />
         <module name="facade" />
         <module name="prototype" />

@@ -1,6 +1,6 @@
 //package com.company.commands;
 //
-//import com.company.model.Author;
+//import com.company.com.company.model.Author;
 //import com.company.repository.AuthorRepository;
 //import org.junit.jupiter.api.BeforeEach;
 //import org.junit.jupiter.api.Test;

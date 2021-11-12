@@ -1,7 +1,7 @@
 //package com.company.queries;
 //
 //import com.company.commands.ICommandService;
-//import com.company.model.Author;
+//import com.company.com.company.model.Author;
 //import org.junit.jupiter.api.BeforeEach;
 //import org.junit.jupiter.api.Test;
 //import org.springframework.beans.factory.annotation.Autowired;
