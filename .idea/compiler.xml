@@ -19,6 +19,7 @@
         <module name="observer" />
         <module name="iterator" />
         <module name="marker" />
+        <module name="composite" />
         <module name="builder" />
         <module name="bridge" />
         <module name="state" />
