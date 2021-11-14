@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/model-view-controller/pom.xml" />
         <option value="$PROJECT_DIR$/event-driven-architecture/pom.xml" />
         <option value="$PROJECT_DIR$/composite/pom.xml" />
+        <option value="$PROJECT_DIR$/template-method/pom.xml" />
       </list>
     </option>
   </component>

@@ -10,6 +10,7 @@
         <module name="singleton" />
         <module name="factory" />
         <module name="cqrs" />
+        <module name="template-method" />
         <module name="adapter" />
         <module name="event-driven-architecture" />
         <module name="model-view-controller" />
