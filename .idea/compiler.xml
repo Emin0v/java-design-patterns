@@ -21,6 +21,7 @@
         <module name="iterator" />
         <module name="marker" />
         <module name="composite" />
+        <module name="data-access-object" />
         <module name="builder" />
         <module name="bridge" />
         <module name="state" />
@@ -28,6 +29,9 @@
         <module name="mediator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dao" target="16" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

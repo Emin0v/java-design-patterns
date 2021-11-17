@@ -24,6 +24,8 @@
         <option value="$PROJECT_DIR$/composite/pom.xml" />
         <option value="$PROJECT_DIR$/template-method/pom.xml" />
         <option value="$PROJECT_DIR$/mediator/pom.xml" />
+        <option value="$PROJECT_DIR$/dao/pom.xml" />
+        <option value="$PROJECT_DIR$/data-access-object/pom.xml" />
       </list>
     </option>
   </component>
